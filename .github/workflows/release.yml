@@ -19,6 +19,9 @@ jobs:
           distribution: 'temurin'
           java-version: '8'
 
+      - name: Grant execute permission to Gradle wrapper
+        run: chmod +x gradlew
+
       - name: Build JAR
         run: ./gradlew jar
 
