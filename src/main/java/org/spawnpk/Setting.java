@@ -13,7 +13,6 @@ public class Setting {
         this.value = value;
     }
 
-    // Getters and setters
     public String getKey() { return key; }
     public String getTitle() { return title; }
     public String getDescription() { return description; }
